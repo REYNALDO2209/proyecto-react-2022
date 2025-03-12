@@ -1,0 +1,41 @@
+/* Estilo general para el menú */
+.main-menu {
+    background-color: #333;
+    padding: 10px;
+    text-align: left; /* Alinea los elementos hacia la izquierda */
+}
+
+/* Estilo de la lista sin puntos */
+.main-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Usamos flexbox para alinear los elementos horizontalmente */
+}
+
+/* Estilo para cada item del menú */
+.main-menu li {
+    margin: 0 15px; /* Espaciado entre los elementos */
+}
+
+/* Estilo de los enlaces (NavLink) */
+.main-menu a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background-color: #4CAF50;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+/* Efecto hover */
+.main-menu a:hover {
+    background-color: #45a049;
+}
+
+/* Estilo cuando el enlace está activo (si es el enlace actual) */
+.main-menu a.active {
+    background-color: #008CBA;
+}

@@ -1,0 +1,28 @@
+.Cripto
+{
+    border: 1px solid skyblue;
+    border-left: 10px solid skyblue;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.info
+{
+    color: rgb(38, 0, 128);
+}
+
+.label
+{
+    color:skyblue;
+}
+
+
+.negative
+{
+    color: red;
+}
+
+.positive
+{
+    color: green;
+}

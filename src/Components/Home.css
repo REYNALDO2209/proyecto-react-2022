@@ -1,0 +1,47 @@
+/* Estilo general para el body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #2C3E50; /* Fondo azul oscuro */
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Centrado de los textos */
+  }
+  
+  /* Estilos para el contenedor de la bienvenida */
+  h1 {
+    font-size: 2.5rem;
+    margin-top: 20px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo para el link que actúa como botón */
+  a {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #2980B9; /* Color azul para el botón */
+    color: #fff;
+    text-decoration: none; /* Sin subrayado */
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px; /* Bordes redondeados */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  /* Efecto hover para el botón */
+  a:hover {
+    background-color: #1F6A8C; /* Azul un poco más oscuro */
+    transform: translateY(-2px); /* Efecto de elevación al pasar el mouse */
+  }
+  
+  /* Efecto focus para el botón (cuando es seleccionado) */
+  a:focus {
+    outline: none; /* Quitar el borde del enfoque */
+    box-shadow: 0 0 5px rgba(41, 128, 185, 0.7); /* Sombra alrededor del enlace */
+  }
+  
